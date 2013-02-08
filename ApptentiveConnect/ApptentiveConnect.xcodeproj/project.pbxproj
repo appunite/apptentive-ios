@@ -1100,6 +1100,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				"ARCHS[sdk=iphoneos*]" = "$(ARCHS_STANDARD_32_BIT)";
 				DSTROOT = /tmp/ApptentiveConnect.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "source/ApptentiveConnect-Prefix.pch";
@@ -1113,6 +1114,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				"ARCHS[sdk=iphoneos*]" = "$(ARCHS_STANDARD_32_BIT)";
 				DSTROOT = /tmp/ApptentiveConnect.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "source/ApptentiveConnect-Prefix.pch";
